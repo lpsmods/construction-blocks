@@ -64,8 +64,8 @@ task(
   "local-deploy",
   watchTask(
     ["scripts/**/*.ts", "behavior_packs/**/*.{json,lang,png}", "resource_packs/**/*.{json,lang,png}"],
-    series("clean-local", "build", "package")
-  )
+    series("clean-local", "build", "package"),
+  ),
 );
 
 // Mcaddon

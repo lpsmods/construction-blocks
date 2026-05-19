@@ -1,21 +1,19 @@
 {
-    "format_version": "1.17.1",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "const:white_celingtile_stairs_from_white_celingtile"
-        },
-        "tags": [
-            "stonecutter"
-        ],
-        "ingredients": [
-            {
-                "item": "const:celingtile_white"
-            }
-        ],
-        "result": [
-            {
-                "item": "const:white_celingtile_stairs"
-            }
-        ]
-    }
+  "format_version": "1.17.1",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "const:white_celingtile_stairs_from_white_celingtile"
+    },
+    "tags": ["stonecutter"],
+    "ingredients": [
+      {
+        "item": "const:celingtile_white"
+      }
+    ],
+    "result": [
+      {
+        "item": "const:white_celingtile_stairs"
+      }
+    ]
+  }
 }

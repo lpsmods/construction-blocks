@@ -1,22 +1,20 @@
 {
-    "format_version": "1.17.1",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "const:stonecutter_warped_stairs1"
-        },
-        "tags": [
-            "stonecutter"
-        ],
-        "ingredients": [
-            {
-                "item": "minecraft:warped_planks"
-            }
-        ],
-        "result": [
-            {
-                "item": "minecraft:warped_stairs",
-                "count": 1
-            }
-        ]
-    }
+  "format_version": "1.17.1",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "const:stonecutter_warped_stairs1"
+    },
+    "tags": ["stonecutter"],
+    "ingredients": [
+      {
+        "item": "minecraft:warped_planks"
+      }
+    ],
+    "result": [
+      {
+        "item": "minecraft:warped_stairs",
+        "count": 1
+      }
+    ]
+  }
 }

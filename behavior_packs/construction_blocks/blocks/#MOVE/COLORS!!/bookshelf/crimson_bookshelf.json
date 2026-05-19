@@ -1,31 +1,31 @@
 {
-    "format_version": "1.17.3",
-    "minecraft:block": {
-        "description": {
-            "identifier": "const:bookshelf_crimson",
-            "is_experimental": false,
-            "register_to_creative_menu": true
+  "format_version": "1.17.3",
+  "minecraft:block": {
+    "description": {
+      "identifier": "const:bookshelf_crimson",
+      "is_experimental": false,
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "construction"
+      },
+      "tag:wood": {},
+      "minecraft:loot": "loot_tables/const/blocks/crimson_bookshelf.json",
+      "minecraft:destroy_time": 0.2,
+      "minecraft:explosion_resistance": 0,
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "crimson_planks"
         },
-        "components": {
-            "minecraft:creative_category": {
-                "category": "construction"
-            },
-            "tag:wood": {},
-            "minecraft:loot": "loot_tables/const/blocks/crimson_bookshelf.json",
-            "minecraft:destroy_time": 0.2,
-            "minecraft:explosion_resistance": 0,
-            "minecraft:unit_cube": {},
-            "minecraft:material_instances": {
-                "up": {
-                    "texture": "crimson_planks"
-                },
-                "down": {
-                    "texture": "crimson_planks"
-                },
-                "*": {
-                    "texture": "const:crimson_bookshelf"
-                }
-            }
+        "down": {
+          "texture": "crimson_planks"
+        },
+        "*": {
+          "texture": "const:crimson_bookshelf"
         }
+      }
     }
+  }
 }

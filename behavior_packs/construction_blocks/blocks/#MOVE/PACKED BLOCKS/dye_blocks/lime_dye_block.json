@@ -1,25 +1,25 @@
 {
-    "format_version": "1.17.3",
-    "minecraft:block": {
-        "description": {
-            "identifier": "const:dye_block_lime"
-        },
-        "components": {
-            "minecraft:creative_category": {
-                "category": "construction"
-            },
-            "tag:wood": {},
-            "minecraft:loot": "loot_tables/const/blocks/lime_dye_block.json",
-            "minecraft:destroy_time": 0.2,
-            "minecraft:explosion_resistance": 0,
-            "minecraft:map_color": "#68b218",
-            "minecraft:unit_cube": {},
-            "minecraft:material_instances": {
-                "*": {
-                    "texture": "const:dye_block_lime",
-                    "render_method": "opaque"
-                }
-            }
+  "format_version": "1.17.3",
+  "minecraft:block": {
+    "description": {
+      "identifier": "const:dye_block_lime"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "construction"
+      },
+      "tag:wood": {},
+      "minecraft:loot": "loot_tables/const/blocks/lime_dye_block.json",
+      "minecraft:destroy_time": 0.2,
+      "minecraft:explosion_resistance": 0,
+      "minecraft:map_color": "#68b218",
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "const:dye_block_lime",
+          "render_method": "opaque"
         }
+      }
     }
+  }
 }

@@ -1,14 +1,14 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "const:light_gray_globe_stained_glass",
-                    "weight": 1
-                }
-            ]
+          "type": "item",
+          "name": "const:light_gray_globe_stained_glass",
+          "weight": 1
         }
-    ]
+      ]
+    }
+  ]
 }

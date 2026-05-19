@@ -1,43 +1,43 @@
 {
-    "format_version": "1.17.3",
-    "minecraft:block": {
-        "description": {
-            "identifier": "const:orange_bookshelf"
+  "format_version": "1.17.3",
+  "minecraft:block": {
+    "description": {
+      "identifier": "const:orange_bookshelf"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "construction"
+      },
+      "tag:wood": {},
+      "minecraft:loot": "loot_tables/const/blocks/orange_bookshelf.json",
+      "minecraft:flammable": {
+        "flame_odds": 1,
+        "burn_odds": 1
+      },
+      "minecraft:destroy_time": 0.2,
+      "minecraft:explosion_resistance": 0,
+      "minecraft:unit_cube": {},
+      "minecraft:map_color": "#0c0d12",
+      "minecraft:material_instances": {
+        "north": {
+          "texture": "const:orange_bookshelf"
         },
-        "components": {
-            "minecraft:creative_category": {
-                "category": "construction"
-            },
-            "tag:wood": {},
-            "minecraft:loot": "loot_tables/const/blocks/orange_bookshelf.json",
-            "minecraft:flammable": {
-                "flame_odds": 1,
-                "burn_odds": 1
-            },
-            "minecraft:destroy_time": 0.2,
-            "minecraft:explosion_resistance": 0,
-            "minecraft:unit_cube": {},
-            "minecraft:map_color": "#0c0d12",
-            "minecraft:material_instances": {
-                "north": {
-                    "texture": "const:orange_bookshelf"
-                },
-                "south": {
-                    "texture": "const:orange_bookshelf"
-                },
-                "west": {
-                    "texture": "const:orange_bookshelf"
-                },
-                "east": {
-                    "texture": "const:orange_bookshelf"
-                },
-                "up": {
-                    "texture": "const:orange_planks"
-                },
-                "down": {
-                    "texture": "const:orange_planks"
-                }
-            }
+        "south": {
+          "texture": "const:orange_bookshelf"
+        },
+        "west": {
+          "texture": "const:orange_bookshelf"
+        },
+        "east": {
+          "texture": "const:orange_bookshelf"
+        },
+        "up": {
+          "texture": "const:orange_planks"
+        },
+        "down": {
+          "texture": "const:orange_planks"
         }
+      }
     }
+  }
 }

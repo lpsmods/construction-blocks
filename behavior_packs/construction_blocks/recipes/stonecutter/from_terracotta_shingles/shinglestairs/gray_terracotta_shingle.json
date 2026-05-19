@@ -1,22 +1,20 @@
 {
-    "format_version": "1.17.1",
-    "minecraft:recipe_shapeless": {
-        "description": {
-            "identifier": "const:stonecutter_gray_terracotta_shingle_stairs"
-        },
-        "tags": [
-            "stonecutter"
-        ],
-        "ingredients": [
-            {
-                "item": "const:gray_terracotta_shingles"
-            }
-        ],
-        "result": [
-            {
-                "item": "const:gray_terracotta_shingle_stairs",
-                "count": 1
-            }
-        ]
-    }
+  "format_version": "1.17.1",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "const:stonecutter_gray_terracotta_shingle_stairs"
+    },
+    "tags": ["stonecutter"],
+    "ingredients": [
+      {
+        "item": "const:gray_terracotta_shingles"
+      }
+    ],
+    "result": [
+      {
+        "item": "const:gray_terracotta_shingle_stairs",
+        "count": 1
+      }
+    ]
+  }
 }

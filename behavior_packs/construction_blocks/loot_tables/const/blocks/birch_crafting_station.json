@@ -1,14 +1,14 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "const:birch_crafting_station",
-                    "weight": 1
-                }
-            ]
+          "type": "item",
+          "name": "const:birch_crafting_station",
+          "weight": 1
         }
-    ]
+      ]
+    }
+  ]
 }

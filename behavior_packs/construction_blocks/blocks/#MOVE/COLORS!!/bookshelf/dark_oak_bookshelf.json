@@ -1,35 +1,35 @@
 {
-    "format_version": "1.17.3",
-    "minecraft:block": {
-        "description": {
-            "identifier": "const:bookshelf_dark_oak",
-            "is_experimental": false,
-            "register_to_creative_menu": true
+  "format_version": "1.17.3",
+  "minecraft:block": {
+    "description": {
+      "identifier": "const:bookshelf_dark_oak",
+      "is_experimental": false,
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "construction"
+      },
+      "tag:wood": {},
+      "minecraft:loot": "loot_tables/const/blocks/dark_oak_bookshelf.json",
+      "minecraft:flammable": {
+        "flame_odds": 1,
+        "burn_odds": 1
+      },
+      "minecraft:destroy_time": 0.2,
+      "minecraft:explosion_resistance": 0,
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "dark_oak_planks"
         },
-        "components": {
-            "minecraft:creative_category": {
-                "category": "construction"
-            },
-            "tag:wood": {},
-            "minecraft:loot": "loot_tables/const/blocks/dark_oak_bookshelf.json",
-            "minecraft:flammable": {
-                "flame_odds": 1,
-                "burn_odds": 1
-            },
-            "minecraft:destroy_time": 0.2,
-            "minecraft:explosion_resistance": 0,
-            "minecraft:unit_cube": {},
-            "minecraft:material_instances": {
-                "up": {
-                    "texture": "dark_oak_planks"
-                },
-                "down": {
-                    "texture": "dark_oak_planks"
-                },
-                "*": {
-                    "texture": "const:dark_oak_bookshelf"
-                }
-            }
+        "down": {
+          "texture": "dark_oak_planks"
+        },
+        "*": {
+          "texture": "const:dark_oak_bookshelf"
         }
+      }
     }
+  }
 }
