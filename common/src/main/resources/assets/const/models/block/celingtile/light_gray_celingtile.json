@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "const:block/celingtile/light_gray_celingtile"
-  }
-}

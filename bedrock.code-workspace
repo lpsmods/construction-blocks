@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "Construction Blocks Add-On",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.associations": {
+      "*.json": "jsonc"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:ore_feature": {
+        "description": {
+            "identifier": "const:gypsum_feature"
+        },
+        "count": 33,
+        "replace_rules": [
+            {
+                "places_block": "const:gypsum",
+                "may_replace": [
+                    "minecraft:stone"
+                ]
+            }
+        ]
+    }
+}

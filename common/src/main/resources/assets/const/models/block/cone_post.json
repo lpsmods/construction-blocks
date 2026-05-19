@@ -1,8 +1,0 @@
-{
-  "parent": "const:template/template_cone_post",
-  "textures": {
-		"layer1": "minecraft:block/orange_concrete",
-		"layer2": "minecraft:block/white_concrete",
-		"base": "minecraft:block/black_concrete"
-	}
-}
