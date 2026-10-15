@@ -1,7 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#const:walls",
-    "#const:beams"
-  ]
-}

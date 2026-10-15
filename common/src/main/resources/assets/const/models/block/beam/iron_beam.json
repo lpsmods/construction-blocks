@@ -1,6 +1,0 @@
-{
-  "parent": "const:block/template_beam",
-  "textures": {
-    "beam": "minecraft:block/iron_block"
-  }
-}

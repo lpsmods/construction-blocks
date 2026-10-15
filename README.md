@@ -1,25 +1,24 @@
 # Construction Blocks
 
 ![Curseforge](https://img.shields.io/curseforge/dt/403144?logo=curseforge&label=&suffix=%20&style=for-the-badge&color=242629&labelColor=e04e14&logoColor=1c1c1c)
-![Modrinth](https://img.shields.io/modrinth/dt/construction-blocks?logo=modrinth&label=&suffix=%20&style=for-the-badge&color=242629&labelColor=5ca424&logoColor=1c1c1c)
 ![Version](https://img.shields.io/curseforge/v/403144?style=for-the-badge)
 ![Game Versions](https://img.shields.io/curseforge/game-versions/403144?style=for-the-badge)
 
-Are you a builder? this mod has TONS of blocks. and adds some items that are vanilla-like. including more nuggets, sticks, and bookshelf in all wood types.
+Adds lots new blocks, items, and tools!
+
+## Contributing
+
+This repository has multiple branches for each platform this Minecraft mod supports.
+
+- [`datapack`](https://github.com/lpsmods/construction-blocks/tree/datapack)
+- [`bedrock`](https://github.com/lpsmods/construction-blocks/tree/bedrock)
 
 ## Mod Data
 
 | Key       | Value                 |
-| --------- |-----------------------|
-| slug      | `poses`               |
-| namespace | `construction-blocks` |
-
-## Loaders
-
-- Bedrock
-- Fabric
-- Forge
-- NeoForge
+| --------- | --------------------- |
+| namespace | `lpsm_const`          |
+| slug      | `construction-blocks` |
 
 ## LINKS
 
