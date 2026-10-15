@@ -10,7 +10,7 @@ Adds lots new blocks, items, and tools!
 
 This repository has multiple branches for each platform this Minecraft mod supports.
 
-- [`datapack`](https://github.com/lpsmods/construction-blocks/tree/datapack)
+- [`1.21`](https://github.com/lpsmods/construction-blocks/tree/1.21)
 - [`bedrock`](https://github.com/lpsmods/construction-blocks/tree/bedrock)
 
 ## Mod Data
